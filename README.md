@@ -10,6 +10,7 @@ Aims
  - Dictionary-like interface (as close as possible)
  - Concurrency (provided by SQLite3)
  - Low memory footprint (values are only loaded into memory when required)
+ - Data interchange (provided by storing values as JSON to preserve type)
 
 
 Basic usage
