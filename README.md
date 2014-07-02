@@ -15,15 +15,11 @@ Aims
 Basic usage
 -----------
 
- import pysqlite3kvstore
- 
- kvdatabase = pysqlite3kvstore.PySQLite3KVStore(file_name, table_name='ApplicationConfiguration', serialisation_type='json')
- 
- kvdatabase['timeout'] = 10
- 
- print kvdatabase['timeout']
-
-> > > 10
+    import pysqlite3kvstore
+    kvdatabase = pysqlite3kvstore.PySQLite3KVStore(file_name, table_name='ApplicationConfiguration', serialisation_type='json')
+    kvdatabase['timeout'] = 10
+    print kvdatabase['timeout']
+    >>> 10
 
 
 Dictionary attributes that are not implemented
